@@ -1,0 +1,30 @@
+ant:
+<ant>
+  <mkdir dir="D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_redistribution" />
+  <mkdir dir="D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing" />
+</ant>
+mcc -C -o acquisitor -W WinMain:acquisitor -T link:exe -d D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing -v D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\AcqSignaStack.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\armSignaTrig.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\daquirefromPX4Stack.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\GUIDesign.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\initSignatec.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\LibPrototype.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\Main_closereq.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\makeImgFromData.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\px1500.h -a D:\Instruments\PAM_DAQ\SignatecDAQ\PX4_64.dll -a D:\Instruments\PAM_DAQ\SignatecDAQ\PX4_64.lib -a D:\Instruments\PAM_DAQ\SignatecDAQ\SaveStack2File.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\setAcqMemStack.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\setDCOffset.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\signalib_thunk_pcwin64.dll -a D:\Instruments\PAM_DAQ\SignatecDAQ\validate_ipaddress.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\writeMetaData.m 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "D:\Instruments\PAM_DAQ\SignatecDAQ" to Compiler path
+instance.] 
+Parsing file "D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 5 temporary MEX authorization files.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_2116_943_2116.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_2116_13895_2116.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_2116_14710_2116.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_2116_17460_2116.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_2116_30605_2116.auth'.
+Generating file "D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2014a\toolbox\compiler\Resources\default_icon.ico to D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing\acquisitor.exe.
+Attempting to embed the CTF archive into the application D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing\acquisitor.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.

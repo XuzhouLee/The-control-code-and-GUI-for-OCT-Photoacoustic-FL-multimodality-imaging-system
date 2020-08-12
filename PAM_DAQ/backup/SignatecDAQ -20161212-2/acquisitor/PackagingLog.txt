@@ -1,0 +1,109 @@
+ant:
+<ant>
+  <mkdir dir="D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_redistribution" />
+  <mkdir dir="D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing" />
+</ant>
+mcc -C -o acquisitor -W WinMain:acquisitor -T link:exe -d D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing -v D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\daquirefromPX4Stack.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\LibConst.m -a D:\Instruments\PAM_DAQ\SignatecDAQ\px1500.h -a D:\Instruments\PAM_DAQ\SignatecDAQ\PX4_64.dll -a D:\Instruments\PAM_DAQ\SignatecDAQ\PX4_64.lib -a D:\Instruments\PAM_DAQ\SignatecDAQ\signalib_thunk_pcwin64.dll -a D:\Instruments\PAM_DAQ\SignatecDAQ\signalib_thunk_pcwin64.exp -a D:\Instruments\PAM_DAQ\SignatecDAQ\signalib_thunk_pcwin64.lib -a D:\Instruments\PAM_DAQ\SignatecDAQ\signalib_thunk_pcwin64.obj -a D:\Instruments\PAM_DAQ\SignatecDAQ\untitled.m 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "D:\Instruments\PAM_DAQ\SignatecDAQ" to Compiler path
+instance.] 
+Parsing file "D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 84 temporary MEX authorization files.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_16744_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_22250_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_21953_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_20948_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_4040_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_11157_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_21157_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_15292_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_15500_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_16653_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_11560_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_4273_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_28665_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_11675_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_28798_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_14295_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_4397_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_6329_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_5210_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_17369_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_677_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_27659_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_14836_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_6715_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_14415_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_2696_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_4843_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_12107_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_24959_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_32024_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_31523_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_6189_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_7804_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_19065_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_17455_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_28344_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_13838_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_8556_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_6305_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_20168_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_16882_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_11459_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_20428_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_27374_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_16582_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_28092_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_11983_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_22885_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_32549_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_4237_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_15055_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_11592_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_7186_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_28480_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_131_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_12291_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_11418_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_14017_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_29942_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_20232_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_17077_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_25142_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_21384_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_4547_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_23406_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_279_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_142_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_7478_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_11215_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_30787_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_30813_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_7452_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_32618_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_26575_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_15847_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_5688_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_9254_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_422_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_12154_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_32369_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_17890_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_22913_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_3074_6648.auth'.
+Removing: 'C:\Users\PAM1~1\AppData\Local\Temp\mathworks_tmp_6648_27352_6648.auth'.
+Generating file "D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2014a\toolbox\compiler\Resources\default_icon.ico to D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing\acquisitor.exe.
+Attempting to embed the CTF archive into the application D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_testing\acquisitor.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at D:\Instruments\PAM_DAQ\SignatecDAQ\acquisitor\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
