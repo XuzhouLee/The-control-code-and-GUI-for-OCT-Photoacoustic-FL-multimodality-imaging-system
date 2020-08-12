@@ -1,0 +1,168 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1390357531" file="C:\Instruments\Acouscope\Acouscope_00.prj" location="C:\Instruments\Acouscope" name="Acouscope_00" preferred-package-location="C:\Instruments\Acouscope\Acouscope_00\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>Acouscope_00</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\Acouscope_00\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Acouscope_00\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\Acouscope_00\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\Acouscope_00\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\Acouscope_00\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Acouscope_00.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Acouscope_00.m</file>
+      <file>${PROJECT_ROOT}\Acouscope_00.prj</file>
+      <file>${PROJECT_ROOT}\basics\closeLaserShutter.m</file>
+      <file>${PROJECT_ROOT}\basics\connectEkspla.m</file>
+      <file>${PROJECT_ROOT}\basics\EnergyCalib.m</file>
+      <file>${PROJECT_ROOT}\basics\getOPOWavelength.m</file>
+      <file>${PROJECT_ROOT}\basics\getShutterStatus.m</file>
+      <file>${PROJECT_ROOT}\basics\LsrStatus.m</file>
+      <file>${PROJECT_ROOT}\basics\OCTCamLiveBtn.m</file>
+      <file>${PROJECT_ROOT}\basics\OCTStatus.m</file>
+      <file>${PROJECT_ROOT}\basics\openLaserShutter.m</file>
+      <file>${PROJECT_ROOT}\basics\readOPOAmp.m</file>
+      <file>${PROJECT_ROOT}\basics\SetLsrTransWP_00.m</file>
+      <file>${PROJECT_ROOT}\basics\setOPOWavelength.m</file>
+      <file>${PROJECT_ROOT}\basics\switchOPOAmp.m</file>
+      <file>${PROJECT_ROOT}\basics\TDC001MoveAbsolute_00.m</file>
+      <file>${PROJECT_ROOT}\basics\TDC001ReqCurntPos_00.m</file>
+      <file>${PROJECT_ROOT}\basics\TwosComplement.m</file>
+      <file>${PROJECT_ROOT}\basics\Wavelength_to_RGB.m</file>
+      <file>${PROJECT_ROOT}\basics\WvPltHomeandMax.m</file>
+      <file>${PROJECT_ROOT}\CANRS232.INI</file>
+      <file>${PROJECT_ROOT}\canrs23264.dll</file>
+      <file>${PROJECT_ROOT}\GUI\EksplaOPO.m</file>
+      <file>${PROJECT_ROOT}\GUI\freeScan_Callback.m</file>
+      <file>${PROJECT_ROOT}\GUI\getBScan_Callback.m</file>
+      <file>${PROJECT_ROOT}\GUI\GUI_closereq.m</file>
+      <file>${PROJECT_ROOT}\GUI\loginwindow.m</file>
+      <file>${PROJECT_ROOT}\GUI\PAMCtrl.m</file>
+      <file>${PROJECT_ROOT}\GUI\Params_Init.m</file>
+      <file>${PROJECT_ROOT}\Main_closereq.m</file>
+      <file>${PROJECT_ROOT}\rctestU64.exe</file>
+      <file>${PROJECT_ROOT}\rctestU64.txt</file>
+      <file>${PROJECT_ROOT}\rcx64wrapper.exe</file>
+      <file>${PROJECT_ROOT}\REMOTECONTROL.CSV</file>
+      <file>${PROJECT_ROOT}\REMOTECONTROL.dll</file>
+      <file>${PROJECT_ROOT}\REMOTECONTROL.H</file>
+      <file>${PROJECT_ROOT}\REMOTECONTROL64.dll</file>
+      <file>${PROJECT_ROOT}\REMOTECONTROL64.lib</file>
+      <file>${PROJECT_ROOT}\REMOTECONTROL_EXPLICIT.H</file>
+      <file>${PROJECT_ROOT}\testtcpip.m</file>
+      <file>${PROJECT_ROOT}\uc480DotNet.dll</file>
+      <file>${PROJECT_ROOT}\USBCAND.dll</file>
+      <file>${PROJECT_ROOT}\usbcand64.dll</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Acouscope_00\for_testing" name="splash.png" optional="false">C:\Instruments\Acouscope\Acouscope_00\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\Acouscope_00\for_testing" name="Acouscope_00.exe" optional="false">C:\Instruments\Acouscope\Acouscope_00\for_testing\Acouscope_00.exe</file>
+      <file location="${PROJECT_ROOT}\Acouscope_00\for_testing" name="readme.txt" optional="true">C:\Instruments\Acouscope\Acouscope_00\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

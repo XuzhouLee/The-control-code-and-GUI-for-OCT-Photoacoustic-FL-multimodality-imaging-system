@@ -1,0 +1,3 @@
+Please 
+1) check that .NET 4.x is installed. 
+2) Install MSVC 2012 redistributable 

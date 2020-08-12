@@ -1,0 +1,31 @@
+Device: UCP         Date: 05/10/2015
+Name;ID;Reg ID;Menu;Type;User rights;Nonvolatile;Min value;Max value;Short name;Print format;Name;Value
+M_CPU800;$11;$38;$15;u8;AUrS;NV;0;2;Energy;[OFF,Adjust,MAX];Output Energy level;MAX
+M_CPU800;$11;$3C;$15;u8;AUS;;0;2;BatchM;[Continuous,Burst,Trigger];Continuous / Burst mode / Trigger burst;Continuous
+MaxiOPG ;$27;$60;$41;float;ArUrSr;;0;4;;%4.2f mJ;OPO;2.42
+MaxiOPG ;$27;$10;$0;float;AUS;NV;3;2600;;%0.2f nm;WaveLength;450.00
+M_CPU800;$11;$39;$15;u16;AUS;NV;1;5000;FDivider;%u;Frequency divider;1
+M_CPU800;$11;$3A;$15;u16;AUS;;1;50000;Pack;%u;Burst length;1
+M_CPU800;$11;$33;$11;u8;ASr;NV;0;1;SyncM;[Internal,External];Synchronization mode;Internal
+M_CPU800;$11;$36;$15;u16;AUS;NV;200;500;QSWAdjDly;%dus;QSW Adjustment output delay;450
+TK6     ;$2C;$12;$2;s16;AUrS;NV;-2300;26600;Tset;%.2fC;Set temperature;49.22
+TK6     ;$2D;$12;$2;s16;AUrS;NV;-2300;26600;Tset;%.2fC;Set temperature;53.25
+MaxiOPG ;$27;$5C;$31;float;AUS;NV;1;2;;%0.3f;Multiplier  OPO;1.180
+UCP     ;$4;$2;$0;u16;ArUrSr;;0;65535;ErrCode;%04x;Error Code;;
+W_CPU800;$10;$10;$0;u8;AUS;NV;0;1;State;[OFF,ON,FAULT];Power;ON
+W_CPU800;$10;$13;$4;u16;ArUrSr;;0;1300;Idisp;%.1fA;Display Current;72.8
+W_CPU800;$10;$1A;$A;u16;ArUrSr;;0;65535;Fcode;%xHEX;Fault code;0
+M_CPU800;$11;$13;$4;u16;ArUrSr;;0;1300;Idisp;%.1fA;Display Current;71.2
+M_CPU800;$11;$1A;$A;u16;ArUrSr;;0;65535;Fcode;%xHEX;Fault code;0
+W_LDCO48;$1D;$10;$2;s16;ArUrSr;;-200;4600;Tdisp;%.2fC;Display temperature;22.00
+W_LDCO48;$1E;$10;$2;s16;ArUrSr;;-200;4600;Tdisp;%.2fC;Display temperature;22.00
+W_LDCO48;$1F;$10;$2;s16;ArUrSr;;-200;4600;Tdisp;%.2fC;Display temperature;25.04
+M_LDCO48;$21;$10;$2;s16;ArUrSr;;-200;4600;Tdisp;%.2fC;Display temperature;24.03
+M_LDCO48;$22;$10;$2;s16;ArUrSr;;-200;4600;Tdisp;%.2fC;Display temperature;24.03
+MaxiOPG ;$27;$11;$1;u8;AUS;;0;3;;[Off,Initiation,Tuning...,Ok.];Status;Ok.
+HV40W   ;$28;$12;$3;u16;ArUrSr;;0;4000;HV;%uV;HV voltage;3800
+TK6     ;$2C;$11;$1;s16;ArUrSr;;-256;25684;isp;%.2fC;Display temperature;49.22
+TK6     ;$2D;$11;$1;s16;ArUrSr;;-256;25684;isp;%.2fC;Display temperature;53.24
+M_CPU800;$11;$10;$0;u8;AUS;NV;0;1;State;[OFF,ON,FAULT];Power;ON
+M_CPU800;$11;$31;$12;u16;AUS;NV;9000;11000;RepRate;%.1fHz;Repetition rate;1000.0
+__license:7b65bd00be56159f037f8fc27e6837f4
